@@ -1,0 +1,21 @@
+// Для счёта
+if(ball_x == 0) {
+    scr1++;
+    printf("%d", scr1);
+}    
+if(ball_y == 80) {
+
+    scr2++;
+    printf("%d", scr2);
+} 
+//Табло для левого игрока
+
+if(y == 3 && x == 15) {
+    printf("Score: %d", scr1);
+}
+    
+//Табло для правого игрока
+    
+if(y == 3 && x == 65) {
+    printf("Score: %d", scr2);
+}
